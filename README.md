@@ -15,11 +15,11 @@ This program needs to be configured directly in the code in order to function pr
 
 * Second is BF. This variable will use the Brute Force feature matcher when set to True and the FLANN matcher if False.
 
-* LOCAL toggles between using a user defined path if set to True and using the programs static image capture from the webcam feed if set to False. If False is chosen for LOCAL, the program will first display a window with the live webcam feed. The user should set the scene how they would like and then hit the "i" key to capture the fram and begin the matching.
+* LOCAL toggles between using a user defined path if set to True and using the programs static image capture from the webcam feed if set to False. If False is chosen for LOCAL, the program will first display a window with the live webcam feed. The user should set the scene how they would like and then hit the "i" key to capture the frame and begin the matching.
 
 * The path1 and path2 variables can be set by the user to point towards images. path1 will always be used as the base image to attempt to match to while path2 is used when LIVE is set to False and LOCAL is set to True.
 
-* Once the program is correctly set up, run the ustility to check the performance of the compiuter vision technique ou selected for your use case.
+* Once the program is correctly set up, run the ustility to check the performance of the compiuter vision technique you selected for your use case.
 
 # Future Updates
 
